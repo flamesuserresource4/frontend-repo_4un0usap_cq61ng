@@ -56,10 +56,10 @@ const WorkShowcase = () => {
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-10 flex items-center justify-between">
           <div>
-            <h2 className="text-2xl font-semibold sm:text-3xl">Selected Work</h2>
+            <h2 className="text-2xl font-semibold sm:text-3xl">Selected Work — Luxentti</h2>
             <p className="mt-2 max-w-xl text-white/70">
-              A curated collection highlighting high-impact projects across luxury,
-              fashion, and technology.
+              A curated collection led by Mai Wahdan, highlighting high-impact projects across luxury,
+              fashion, and technology. مختارات من الأعمال الرفيعة.
             </p>
           </div>
           <div className="hidden items-center gap-2 md:flex">
@@ -77,7 +77,7 @@ const WorkShowcase = () => {
         <div className="mt-10 flex items-center gap-2 text-white/70">
           <Star className="h-5 w-5" />
           <p className="text-sm">
-            Want your brand to stand out? Let's craft a bespoke digital experience.
+            Ready to elevate your brand? Let’s craft a bespoke digital experience with Luxentti.
           </p>
         </div>
       </div>

@@ -7,7 +7,7 @@ const Contact = () => {
 
   const onSubmit = (e) => {
     e.preventDefault();
-    setStatus('Thanks — your request was received. We will get back to you shortly.');
+    setStatus('تم الاستلام — سنعود إليك قريبًا. Thanks — your request was received.');
   };
 
   return (
@@ -15,15 +15,23 @@ const Contact = () => {
       <div className="mx-auto max-w-7xl px-6">
         <div className="grid gap-10 md:grid-cols-2">
           <div>
-            <h2 className="text-2xl font-semibold sm:text-3xl">Start a Project</h2>
+            <h2 className="text-2xl font-semibold sm:text-3xl">ابدئي مشروعك — Start a Project</h2>
             <p className="mt-3 max-w-lg text-white/70">
-              Share a bit about your goals, timeline, and scope. We'll craft a plan
-              to elevate your brand's digital presence.
+              شاركي تفاصيل المشروع، الأهداف، والجدول الزمني لنقترح عليكِ خطة مُحكمة.
+              Share a bit about your goals, timeline, and scope.
             </p>
 
             <div className="mt-6 space-y-3 text-white/70">
               <p className="flex items-center gap-2"><Mail className="h-4 w-4" /> hello@luxentti.studio</p>
               <p className="flex items-center gap-2"><Phone className="h-4 w-4" /> +1 (555) 000-1234</p>
+              <a
+                href="https://www.instagram.com/luxentti?igsh=YjZzM25mNjkyY2R3"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-block text-sm text-white/70 underline hover:text-white"
+              >
+                Instagram — Luxentti
+              </a>
             </div>
           </div>
 
@@ -37,7 +45,7 @@ const Contact = () => {
           >
             <div className="grid gap-4 sm:grid-cols-2">
               <div className="sm:col-span-1">
-                <label className="mb-1 block text-sm text-white/70">Your name</label>
+                <label className="mb-1 block text-sm text-white/70">الاسم / Your name</label>
                 <input
                   required
                   type="text"
@@ -46,7 +54,7 @@ const Contact = () => {
                 />
               </div>
               <div className="sm:col-span-1">
-                <label className="mb-1 block text-sm text-white/70">Email</label>
+                <label className="mb-1 block text-sm text-white/70">البريد / Email</label>
                 <input
                   required
                   type="email"
@@ -55,7 +63,7 @@ const Contact = () => {
                 />
               </div>
               <div className="sm:col-span-2">
-                <label className="mb-1 block text-sm text-white/70">Project details</label>
+                <label className="mb-1 block text-sm text-white/70">تفاصيل المشروع / Project details</label>
                 <textarea
                   required
                   rows={4}

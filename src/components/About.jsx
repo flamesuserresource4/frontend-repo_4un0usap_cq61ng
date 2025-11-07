@@ -13,11 +13,16 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="order-2 md:order-1"
           >
-            <h2 className="text-2xl font-semibold sm:text-3xl">About Luxentti</h2>
+            <h2 className="text-2xl font-semibold sm:text-3xl">About Mai Wahdan — Luxentti</h2>
             <p className="mt-4 text-white/80">
-              Luxentti, founded by Mai Wahdan, is a studio focused on creating high-end,
-              modern web experiences that merge aesthetics with performance. We craft
-              brands and digital products that feel effortless, intentional, and alive.
+              Luxentti is a luxury digital studio led by Mai Wahdan, dedicated to crafting
+              premium, modern web experiences that merge aesthetics with performance.
+              From strategy and brand systems to interactive product sites, we shape
+              experiences that feel effortless, intentional, and alive.
+            </p>
+            <p className="mt-3 text-white/70">
+              حلول رقمية مُصمّمة خصيصًا لمي وهدان — توازن بين الفخامة والابتكار، مع عناية
+              فائقة بالتفاصيل والأداء.
             </p>
             <div className="mt-6 grid grid-cols-2 gap-4 text-sm text-white/70">
               <div>
